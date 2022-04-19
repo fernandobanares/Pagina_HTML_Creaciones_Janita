@@ -5,8 +5,20 @@
 }
 
 body{
-    width: 100vw;
-    height: 100vh;
+    min-height:100vh;
+    position:relative;
+    display: grid;
+    grid-template-areas:
+    "cabecera cabecera cabecera cabecera"
+    "cabecera cabecera cabecera cabecera"
+    "main1 main1 main1 main1"
+    "main1 main1 main1 main1"
+    "main2 main2 main2 costado"
+    "main2 main2 main2 costado"
+    "pie pie pie pie"
+    "pie pie pie pie"
+    ;
+    gap: 2px;
 }
 html{
     scroll-behavior: smooth;
@@ -22,9 +34,8 @@ html{
     height: 70px;
 }
 .header__imagen{
-/*     display: flex;
-    align-self: flex-start;
-    justify-self: flex-start; */
+    display: flex;
+    justify-content: left;
     width: 68px;
     border: solid 1px;
     
@@ -159,10 +170,38 @@ html{
 display:flex;
 justify-content: center;
 }
+.contacto{
+    display: grid;
+    grid-column:1/4;
+}
+.mainContent{
+   /*  margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:100px 100px;
+    gap: 2px; */
+    grid-area:main2;
+}
+.galeria{
+grid-area:main1;
+}
+.header{
+grid-area:cabecera;
+}
+.footer{
+grid-area:pie;
+}
 
-.titulo{
-    display: flex;
-    justify-content: center;
+aside{
+grid-area:costado;
+}
+
+.mainContent__cards{
+    border:solid 1px;
+    background-color:darkkhaki;
+}
+.cardUno{
+    /* grid-row: 1/3; */
 }
 
 /* Media Querys */
@@ -174,18 +213,26 @@ justify-content: center;
         margin:auto;
         display: block;
     }
-
+    .galeria{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        height: 40vh;
+        width: 50vw;
+        margin:auto;
+    }
     .footer{
         background-color:darkred;
     }
 
     .header{
         height:fit-content;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        background-color: darkred;
     }
     .header__menu{
-        flex-direction: column;
+        flex-direction: row;
     }
     .header__imagen{
         /*     display: flex;
@@ -202,6 +249,25 @@ justify-content: center;
     }
     .iframe{
         display: none;
+    }
+    .mainContent{
+        display: none;
+    }
+    aside{
+        display:none;
+    
+    }
+}
+@media only screen and (max-width: 480px){
+    .header{
+        background-color: slateblue;
+    }
+
+    .header__menu{
+        flex-wrap: wrap;
+    }
+    .footer{
+        background-color:slateblue;
     }
 }
 /* .body{
