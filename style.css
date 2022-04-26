@@ -83,7 +83,7 @@ html{
 
 .header__menu li:hover{
     transform:scale(1.5);
-    background-color: fuchsia;
+    background-color:lightpink;
 }
 
 .header__menu li a{
