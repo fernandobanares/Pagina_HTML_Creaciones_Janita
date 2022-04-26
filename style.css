@@ -37,13 +37,13 @@ html{
 .titulo{
     font-size: 50px;
     font-style:oblique;
-    animation-name: rotarTitulo;
+    /* animation-name: rotarTitulo;
     animation-iteration-count: infinite;
     animation-duration: 4s;
-    animation-delay: 2s;
+    animation-delay: 2s; */
 }
 
- @keyframes rotarTitulo {
+ /* @keyframes rotarTitulo {
     0%{
      transform: rotate(0deg)
     }
@@ -60,7 +60,7 @@ html{
     transform: rotate(360deg)
     }
  }
-
+ */
 
 .header__imagen{
     display: flex;
@@ -78,13 +78,13 @@ html{
 .header__menu li{
     list-style: none;
     padding: 2%;
-    transition: transform 1s, background-color 2s;
+    /* transition: transform 1s, background-color 2s; */
 }
 
-.header__menu li:hover{
+/* .header__menu li:hover{
     transform:scale(1.5);
     background-color: fuchsia;
-}
+} */
 
 .header__menu li a{
     text-decoration: none;
@@ -204,7 +204,7 @@ html{
     align-self: center;
 }
 
-@keyframes carrusel {
+/* @keyframes carrusel {
     25%{
         background-image: url(./Imagenes/mama2.jpg);  
     }
@@ -217,7 +217,7 @@ html{
     100%{
         background-image: url(./Imagenes/logo.jpg);  
     }
-}
+} */
 .mainGaleria{
     display: flex;
     justify-content: center;
