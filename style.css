@@ -331,7 +331,7 @@ input:focus{
 }
 @media only screen and (max-width: 480px){
     .header{
-        background-color: slateblue;
+        background-color:darkblue;
     }
 
     .titulo{
