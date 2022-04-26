@@ -260,7 +260,7 @@ grid-area:costado;
 }
 @media only screen and (max-width: 480px){
     .header{
-        background-color: slateblue;
+        background-color:darkblue;
     }
 
     .header__menu{
