@@ -258,7 +258,7 @@ grid-area:costado;
     background-color:darkkhaki;
 }
 .cardUno{
-    /* grid-row: 1/3; */
+    grid-row: 1/3;
 }
 
 input{
