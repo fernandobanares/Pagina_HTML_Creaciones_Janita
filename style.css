@@ -24,7 +24,7 @@ html{
     scroll-behavior: smooth;
     background-image:url(https://media.istockphoto.com/vectors/fashion-background-cloth-and-accessories-beauty-vector-id531243274);
 }
-.header{
+/* .header{
     background-color: blueviolet;
     display: flex;
     flex-direction: row;
@@ -32,7 +32,7 @@ html{
     position: sticky;
     top: 0;
     height: 70px;
-}
+} */
 
 .titulo{
     font-size: 50px;
@@ -62,14 +62,14 @@ html{
  }
 
 
-.header__imagen{
+/* .header__imagen{
     display: flex;
     justify-content: left;
     width: 68px;
     border: solid 1px;
     
-}
-.header__menu{
+} */
+/* .header__menu{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -104,7 +104,7 @@ html{
 }
 .header__menu--submenu:hover .header__submenu{
     display: block;
-}
+} */
 
 .productos__section{
     margin-top: -70px;
@@ -302,9 +302,9 @@ input:focus{
         font-style:oblique;
     }
     
-    .header__menu{
+    /* .header__menu{
         flex-direction: row;
-    }
+    } */
     .header__imagen{
         /*     display: flex;
             align-self: flex-start;
@@ -312,12 +312,12 @@ input:focus{
             width: 50px;
             border: solid 1px;
     }
-    .header__menu li a{
+/*     .header__menu li a{
         text-decoration: none;
         color: black;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: small;
-    }
+    } */
     .iframe{
         display: none;
     }
