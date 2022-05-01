@@ -24,6 +24,10 @@
     scroll-behavior: smooth;
     background-image:url(https://media.istockphoto.com/vectors/fashion-background-cloth-and-accessories-beauty-vector-id531243274);
 } */
+
+body{
+    background-image: url(./Imagenes/25545812-patrón-de-los-bolsos-mujer-de-fondo-sin-fisuras-bolsas-moda-silhuette-wallpaper.webp);
+}
 .header{
     background-color: blueviolet;
     }
@@ -285,7 +289,9 @@ grid-area:costado;
 .cardUno{
     grid-row: 1/3;
 }
-
+.form{
+    position:sticky
+}
 /* input{
     height: 25px;
     transition: all 2s;
