@@ -24,12 +24,14 @@
     scroll-behavior: smooth;
     background-image:url(https://media.istockphoto.com/vectors/fashion-background-cloth-and-accessories-beauty-vector-id531243274);
 } */
-
 body{
-    background-image: url(./Imagenes/25545812-patrón-de-los-bolsos-mujer-de-fondo-sin-fisuras-bolsas-moda-silhuette-wallpaper.webp);
+
+    background-image: url(./Imagenes/fondo.jpg);
 }
 .header{
     background-color: blueviolet;
+    display: flex;
+    justify-content:space-around
     }
 .logo{
     width: 150px;
@@ -52,6 +54,7 @@ body{
 .footer__logos{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .footer__contacto{
@@ -62,6 +65,14 @@ body{
 .footer{
     background-color: blueviolet;
     position: sticky;
+}
+.div li:nth-child(5){
+    background-color:crimson;
+    opacity: 80%;
+}
+.logo{
+    width:100px;
+    padding:5px;
 }
 /* .titulo{
     font-size: 50px;
@@ -138,7 +149,9 @@ body{
 .productos__section{
     margin-top: -70px;
     padding-top: 70px;
+    
 }
+
 .galeria{
     display: flex;
     flex-wrap: nowrap;
@@ -256,7 +269,7 @@ body{
 display:flex;
 justify-content: center;
 }
-.contacto{
+/* .contacto{
     display: grid;
     grid-column:1/4;
 }
@@ -270,8 +283,8 @@ justify-content: center;
 }
 .galeria{
 grid-area:main1;
-}
-.header{
+} */
+/* .header{
 grid-area:cabecera;
 }
 .footer{
@@ -288,9 +301,29 @@ grid-area:costado;
 }
 .cardUno{
     grid-row: 1/3;
+} */
+.form div{
+    margin-left: 10%;
 }
-.form{
-    position:sticky
+.input{
+    margin-left: 35%;
+}    
+.card__galeria{
+    font-family: 'Roboto', sans-serif;
+}
+
+.productos__section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;  
+}
+
+.titulo__productos{
+    display: flex;
+    justify-content: center;
+}
+.cuadro__contacto{
+    font-family: 'Roboto', sans-serif;
 }
 /* input{
     height: 25px;
