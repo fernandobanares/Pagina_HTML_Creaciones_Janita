@@ -1,0 +1,10 @@
+body {
+  background-image: url(./Imagenes/fondo.jpg); }
+
+.header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around; }
+
+.logo {
+  width: 150px; }
