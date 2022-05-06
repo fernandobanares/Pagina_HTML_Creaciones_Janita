@@ -1,0 +1,31 @@
+.cuadro__contacto{
+    font-family: 'Roboto', sans-serif;
+}
+.footer__logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer__contacto{
+    border: solid 1px;
+    border-radius: 6px;
+}
+
+.footer{
+    background-color: $color-principal;
+    position: sticky;
+}
+.logoInstagram{
+    height: 30px;
+}
+
+.logoFacebook{
+    height: 30px;
+}
+.footer a{
+    color: black;
+}
+.cuadro__contacto{
+    font-family: 'Roboto', sans-serif;
+}

@@ -33,9 +33,9 @@ body{
     display: flex;
     justify-content:space-around
     }
-.logo{
+/* .logo{
     width: 150px;
-}
+} */
 .nav-link{
     font-size: 24px;
 }
@@ -47,9 +47,9 @@ body{
     height: 250px;
 }
 
-.footer__logo{
+/* .footer__logo{
     width: 150px;
-}
+} */
 
 .footer__logos{
     display: flex;
@@ -168,7 +168,7 @@ body{
     margin: 10px;
     object-fit: contain;
 }
-.cardsFotos{
+.mainGaleria__fotos{
     display: flex;
     flex-direction: column;
     justify-content: center;

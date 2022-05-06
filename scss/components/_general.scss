@@ -1,0 +1,127 @@
+body{
+
+    background-image: url(./Imagenes/fondo.jpg);
+}
+.carousel-item{
+    height: $tamanio-fotos;
+}
+.carousel-item img{
+    height: $tamanio-fotos;
+}
+.productos__section{
+    margin-top: -70px;
+    padding-top: 70px;
+}
+
+/* anidación con & */
+.mainGaleria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__fotos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.galeria{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    overflow-x: scroll;
+    height: 40vh;
+    width: 50vw;
+    margin:auto;
+}
+.galeria__imagen{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: contain;
+}
+
+
+.galeriaContacto{
+    display: flex;
+    margin:auto;
+}
+.fotoMama{
+    border: solid 1px;
+}
+.card__galeria{
+    display: flex;
+    justify-content: center;  
+}
+.iframe{
+    height: 400px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.Quienessomos{
+    display: flex;
+    justify-content: center;
+}
+
+.Quienessomos nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.falsoCarrusel{
+    width: 500px;
+    height: 500px;
+    background-image: url(./Imagenes/mama.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: carrusel;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    align-self: center;
+}
+
+@keyframes carrusel {
+    25%{
+        background-image: url(./Imagenes/mama2.jpg);  
+    }
+    50%{
+        background-image: url(./Imagenes/mama3.jpg);  
+    }
+    75%{
+        background-image: url(./Imagenes/mama4.jpg);  
+    }
+    100%{
+        background-image: url(./Imagenes/logo.jpg);  
+    }
+}
+
+.mainLista{
+display:flex;
+justify-content: center;
+}
+.form div{
+    margin-left: 10%;
+}
+.input{
+    margin-left: 35%;
+}    
+.card__galeria{
+    font-family: 'Roboto', sans-serif;
+}
+
+.productos__section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;  
+}
+
+.titulo__productos{
+    display: flex;
+    justify-content: center;
+}
