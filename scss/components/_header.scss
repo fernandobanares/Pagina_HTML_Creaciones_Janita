@@ -16,5 +16,5 @@ body{
     opacity: 80%;
 }
 .nav-link{
-    font-size: 24px;
+    font-size: map-get($tamanio-tipografia, Navs)
 }

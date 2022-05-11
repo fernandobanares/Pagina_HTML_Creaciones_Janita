@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* Maps */
 /* Extend */
+.mainGaleria__fotos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 body {
   background-image: url(./Imagenes/fondo.jpg); }
 
@@ -67,10 +72,7 @@ body {
   justify-content: center;
   flex-wrap: wrap; }
   .mainGaleria__fotos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: column; }
 
 .galeria {
   display: flex;
@@ -103,7 +105,7 @@ body {
 
 .contacto {
   display: flex;
-  flex-direction: column;
+  direction: column;
   justify-content: center;
   align-items: center; }
 

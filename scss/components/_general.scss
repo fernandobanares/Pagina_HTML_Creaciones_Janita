@@ -20,10 +20,9 @@ body{
     flex-wrap: wrap;
 
     &__fotos{
-        display: flex;
+        @extend %flexcenter;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
     }
 }
 .galeria{
@@ -58,10 +57,7 @@ body{
     height: 400px;
 }
 .contacto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
+    @include flexbox(column,center,center);
 }
 .Quienessomos{
     display: flex;

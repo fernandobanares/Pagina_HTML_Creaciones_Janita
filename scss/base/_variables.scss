@@ -3,18 +3,23 @@ $tamanio-fotos:250px;
 
 
 /* Maps */
+$tamanio-tipografia:(
+    Navs:24px,
+    Titulos:48px,
+);
+
 
 /* Extend */
 
-%flex-center{
+%flexcenter{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+};
 
 @mixin flexbox ($direction, $justify, $align){
     display: flex;
     direction:$direction;
     justify-content: $justify;
     align-items: $align;
-}
+};
