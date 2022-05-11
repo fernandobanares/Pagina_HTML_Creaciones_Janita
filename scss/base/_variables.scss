@@ -17,6 +17,7 @@ $tamanio-tipografia:(
     align-items: center;
 };
 
+/* Mixin */
 @mixin flexbox ($direction, $justify, $align){
     display: flex;
     direction:$direction;
