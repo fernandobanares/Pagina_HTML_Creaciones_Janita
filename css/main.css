@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Maps */
 /* Extend */
-.mainGaleria__fotos {
+.mainGaleria__fotos, .cardsFotos {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -156,8 +156,11 @@ body {
 
 .productos__section {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center; }
+
+.cardsFotos {
+  flex-direction: column; }
 
 .titulo__productos {
   display: flex;

@@ -114,8 +114,12 @@ justify-content: center;
 
 .productos__section{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;  
+}
+.cardsFotos{
+    @extend %flexcenter;
+    flex-direction: column; 
 }
 
 .titulo__productos{
