@@ -55,9 +55,10 @@ body{
 }
 .iframe{
     height: 400px;
+    margin-left: 28vw;
 }
 .contacto{
-    @include flexbox(column,center,center);
+    @include flexbox(row,center,center);
 }
 .Quienessomos{
     display: flex;
