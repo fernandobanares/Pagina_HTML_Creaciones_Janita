@@ -21,7 +21,19 @@ body{
 
     &__fotos{
         @extend %flexcenter;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+}
+.cardsFotos{
+    @extend %flexcenter;
+    flex-direction: column;
+    border:solid 1px;
+
+    &__texto{
+        border:solid 4px;
+    background-color:darkblue;  
         
     }
 }
@@ -117,10 +129,9 @@ justify-content: center;
     flex-wrap: wrap;
     justify-content: center;  
 }
-.cardsFotos{
-    @extend %flexcenter;
-    flex-direction: column; 
-}
+
+
+
 
 .titulo__productos{
     display: flex;

@@ -27,7 +27,8 @@ body {
   font-size: 24px; }
 
 .cuadro__contacto {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  color: black; }
 
 .footer__logos {
   display: flex;
@@ -73,7 +74,15 @@ body {
   justify-content: center;
   flex-wrap: wrap; }
   .mainGaleria__fotos {
-    flex-direction: column; }
+    flex-direction: row;
+    flex-wrap: wrap; }
+
+.cardsFotos {
+  flex-direction: column;
+  border: solid 1px; }
+  .cardsFotos__texto {
+    border: solid 4px;
+    background-color: darkblue; }
 
 .galeria {
   display: flex;
@@ -158,9 +167,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-
-.cardsFotos {
-  flex-direction: column; }
 
 .titulo__productos {
   display: flex;
